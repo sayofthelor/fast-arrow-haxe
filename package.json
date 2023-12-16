@@ -1,14 +1,14 @@
 {
-    "name": "fast-arrow",
-    "displayName": "Fast Arrow",
-    "description": "Write arrow function in less than 1 second",
-    "version": "1.0.8",
+    "name": "fast-arrow-haxe",
+    "displayName": "Fast Arrow (Haxe)",
+    "description": "Fast Arrow extension for Haxe",
+    "version": "1.0.0",
     "icon": "icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/vinliao/fast-arrow"
+        "url": "https://github.com/sayofthelor/fast-arrow-haxe"
     },
-    "publisher": "vinliao",
+    "publisher": "sayofthelor",
     "engines": {
         "vscode": "^1.38.0"
     },
@@ -18,35 +18,7 @@
     "contributes": {
         "snippets": [
             {
-                "language": "javascript",
-                "path": "./snippets/snippets.json"
-            },
-            {
-                "language": "javascriptreact",
-                "path": "./snippets/snippets.json"
-            },
-            {
-                "language": "typescript",
-                "path": "./snippets/snippets.json"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/snippets.json"
-            },
-            {
-                "languages": [
-                    {
-                        "id": "vue",
-                        "extensions": [
-                            ".vue"
-                        ],
-                        "aliases": [
-                            "Vue",
-                            "vue",
-                            "vue.js"
-                        ]
-                    }
-                ],
+                "language": "haxe",
                 "path": "./snippets/snippets.json"
             }
         ]

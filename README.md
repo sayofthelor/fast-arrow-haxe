@@ -1,21 +1,14 @@
-# Fast arrow
-This is a VSCode snippet to write JS arrow function really fast
+# Fast Arrow (Haxe)
+Fork of [Fast Arrow](https://github.com/vinliao/fast-arrow) for Haxe
 
-![gif](https://raw.githubusercontent.com/vinliao/fast-arrow/master/images/faster.gif)
-
-This snippet is supported on
-- .js
-- .ts
-- .vue
-- .jsx
-- .tsx
+![gif](https://raw.githubusercontent.com/sayofthelor/fast-arrow-haxe/master/images/faster.gif)
 
 
 ## Available snippets
 ### `fa`
 This stands for **f**ast **a**rrow and it will turn to
 ```
-() => {
+() -> {
   YOUR_CURSOR_HERE
 }
 ```
@@ -23,7 +16,7 @@ This stands for **f**ast **a**rrow and it will turn to
 ### `faa`
 This stands for **f**ast **a**rrow **a**rgs and it will turn to
 ```
-(YOUR_CURSOR_HERE) => {
+(YOUR_CURSOR_HERE) -> {
 
 }
 ```
@@ -31,15 +24,7 @@ This stands for **f**ast **a**rrow **a**rgs and it will turn to
 ### `fai`
 This stands for **f**ast **a**rrow **i**nline and it will turn to
 ```
-() => {}YOUR_CURSOR_HERE
-```
-
-### `far`
-This stands for **f**ast **a**rrow **r**esponse and it will turn to
-```
-response => {
-  YOUR_CURSOR_HERE
-}
+() -> {}YOUR_CURSOR_HERE
 ```
 
 ## Installation
